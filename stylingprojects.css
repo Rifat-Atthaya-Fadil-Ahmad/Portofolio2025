@@ -1,0 +1,365 @@
+*, html, body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Plus Jakarta Sans";
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.wrappernav{
+    background-color: rgba(242, 242, 242, 0.35);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.25);
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    background-color: rgba(242, 242, 242, 0.35);
+    backdrop-filter: blur(30px);
+    
+}
+
+.navigation > li {
+    
+    display: flex;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    font-size: 20px;
+    justify-content: none;
+    align-content: none;
+    align-items: center;
+
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.navigation > li > a.button-project {
+
+    color: black;
+
+}
+
+.navigation > li > a.navbutton-contactme {
+
+        color: #999999;
+
+}
+
+.navigation > li >a:hover {
+
+    color: #4D4D4D;
+    transition: all .3s ease-in-out;
+
+}
+
+h5 {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #202020;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h6 {
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+    /* my projects 1 */
+
+.text-myprojects > h6 {
+
+    color: #4D4D4D;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.container-section-myproject1> .text-section-myproject1 > h6 {
+    color: #4D4D4D;
+    font-size: 20px;
+    /* text-align: ; */
+}
+
+.container-myproject {
+
+display: flex;
+padding-top: 351px;
+padding-bottom: 351px;
+padding-right: 64px;
+padding-left: 64px;
+justify-content: center;
+align-content: center;
+
+}
+
+.text-myprojects {
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 464.5px; */
+    gap: 32px;
+    width: 863px;
+
+}
+
+/* SECTION PROJECT 1 */
+
+.container-section-myproject1 {
+
+    height: 970px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-section-myproject1 {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 216px;
+    padding-right: 216px;
+    padding-top: 279px;
+    padding-bottom: 278px;
+    gap: 32px;
+    text-align: justify;
+
+}
+
+.left-section-myproject1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.button-myproject1 {
+    
+    background-color: #333333;
+    text-decoration: none;
+    border-radius: 60px;
+    width: 233px;
+    height: 64px;
+    font-size: 20px;
+    border: 0px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.viewdetails-project1 {
+
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 60px;
+    
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    
+}
+
+.button-myproject1:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
+
+/* my projects 2 */
+
+.container-section-myproject2 {
+
+    height: 970px;
+
+}
+
+.text-section-myproject2 {
+
+    padding-top: 279px;
+    padding-bottom: 278px;
+    padding-left: 216px;
+    padding-right: 216px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+
+}
+
+.right-section-myproject2 {
+
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 32px;
+    align-content: end;
+    align-items: end;
+    justify-content: center;
+}
+
+.button-myproject2 {
+    
+    background-color: #333333;
+    text-decoration: none;
+    border-radius: 60px;
+    width: 233px;
+    height: 64px;
+    font-size: 20px;
+    border: 0px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.viewdetails-project2 {
+
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 60px;
+    
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    
+}
+
+.button-myproject2:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
+
+/* SECTION PROJECT 3 */
+
+.container-section-myproject3 {
+
+    height: 970px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-section-myproject3 {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 216px;
+    padding-right: 216px;
+    padding-top: 279px;
+    padding-bottom: 278px;
+    gap: 32px;
+    text-align: justify;
+
+}
+
+.left-section-myproject3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.button-myproject3 {
+    
+    background-color: #333333;
+    text-decoration: none;
+    border-radius: 60px;
+    width: 233px;
+    height: 64px;
+    font-size: 20px;
+    border: 0px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.viewdetails-project3 {
+
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 60px;
+    
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    
+}
+
+.button-myproject3:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
