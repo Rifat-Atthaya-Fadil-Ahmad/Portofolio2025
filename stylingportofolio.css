@@ -297,3 +297,321 @@ h6 {
     text-decoration: none;
 
 }
+
+/* RESPONSIVE MEDIA - RESPONSIVE MEDIA - RESPONSIVE MEDIA - RESPONSIVE MEDIA - RESPONSIVE MEDIA */
+
+@media (max-width: 863px){
+    
+    .container {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.wrappernav{
+    background-color: rgba(242, 242, 242, 0.35);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.25);
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    background-color: rgba(242, 242, 242, 0.35);
+    backdrop-filter: blur(30px);
+    
+}
+
+.navigation > li {
+    
+    display: flex;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    font-size: 20px;
+    justify-content: none;
+    align-content: none;
+    align-items: center;
+
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation > li > a.button-project {
+
+    color: #999999;
+
+}
+
+.navigation > li > a.navbutton-contactme {
+
+        color: #999999;
+
+}
+
+.navigation > li >a:hover {
+
+    color: #4D4D4D;
+    transition: all .3s ease-in-out;
+
+}
+
+.navigation > li > a.
+
+/* SECTION ABOUT ME */
+
+.aboutme {
+    position: absolute;
+}
+
+.regular{
+
+    font-weight: 400;
+
+}
+
+.medium {
+    
+    font-weight: 500px;
+
+}
+
+.bold {
+
+    font-weight: 700px;
+
+}
+
+h5 {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    color: #202020;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h6 {
+    color: #4D4D4D;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-aboutme {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 158px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 164px;
+    padding-bottom: 339px;
+    align-items: center;
+
+}
+
+.text-aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    height: 386px;
+    align-content: center;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-aboutme{
+
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.button-aboutme > button {
+
+    border-radius: 60px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+
+}
+
+.button-aboutme > .button-downloadcv {
+
+    background-color: #333333;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 60px;
+    
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.button-aboutme > .button-contactme {
+
+    background-color: none;
+    color: #202020;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #202020;
+    border-radius: 60px;
+
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.button-aboutme > .button-downloadcv:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.button-aboutme > .button-contactme:hover {
+
+    background-color: #B3B3B3;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.profile {
+
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    border-radius: 600px;
+    /* max-width: 1px; */
+    
+}
+
+/* SECTION MY PROJECTS */
+
+.myprojects {
+
+    display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 164px;
+    padding-bottom: 339px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.text-myprojects {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 735px;
+    gap: 32px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.button-myprojects {
+
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+    font-size: 20px;
+    color: #F2F2F2;
+    background-color: #333333;
+    border: 0px;
+    text-decoration: none;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+
+}
+
+.button-myprojects:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
+
+/* CONTACT ME */
+
+.contactme{
+
+    height: 600px;
+    justify-items: center;
+}
+
+.text-contactme {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    width: 735px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.text-contactme > .text-email {
+
+    color: #1A1A1A;
+
+}
+
+.logo-linkedin {
+
+    color: #202020;
+
+}
+
+.logo-linkedin:hover {
+
+
+    border-radius: 10px;
+    color: #666666;
+    text-decoration: none;
+
+}
+
+}
