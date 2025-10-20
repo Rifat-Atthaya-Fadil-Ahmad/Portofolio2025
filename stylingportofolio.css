@@ -388,15 +388,18 @@ h6 {
     font-weight: 400;
 }
 
+
 .container-aboutme {
     
     display: flex;
-    gap: 158px;
+    flex-direction: column;
+    gap: 24px;
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 164px;
     padding-bottom: 339px;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -407,14 +410,17 @@ h6 {
     /* height: 386px; */
     align-content: center;
     gap: 32px;
+    text-align: center;
+    justify-content: center;
 }
 
 .button-aboutme{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 24px;
     text-decoration: none;
+    justify-content: center;
 
 }
 
@@ -512,11 +518,19 @@ h6 {
 .myprojects {
 
     display: flex;
+    flex-direction: column;
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 164px;
     padding-bottom: 339px;
     justify-content: center;
+    align-items: center;
+
+}
+
+.pictureproject {
+
+    justify-items: center;
 
 }
 
@@ -524,11 +538,11 @@ h6 {
 
     display: flex;
     flex-direction: column;
-    align-items: end;
     justify-content: center;
     width: 846px;
-    text-align: end;
+    text-align: center;
     gap: 32px;
+    align-items: center;
     
 }
 
@@ -545,15 +559,16 @@ h6 {
     border: 0px;
     text-decoration: none;
     box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
-
+    width: 173px;
 }
 
 .button-myprojects > h6 {
 
     color: #F2F2F2;
     height: 24px;
-    width: 173px;
-
+    width: 100%;
+    margin: 0;
+    
 }
 
 .button-myprojects:hover {
