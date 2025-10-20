@@ -73,9 +73,280 @@
 
 }
 
-.navigation > li > a.
 
-/* SECTION ABOUT ME */
+
+@media (min-width: 1259px) {
+    
+    /* SECTION ABOUT ME */
+
+.aboutme {
+    position: absolute;
+}
+
+.regular{
+
+    font-weight: 400;
+
+}
+
+.medium {
+    
+    font-weight: 500px;
+
+}
+
+.bold {
+
+    font-weight: 700px;
+
+}
+
+h5 {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #202020;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h6 {
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.container-aboutme {
+    
+    display: flex;
+    gap: 32px;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 249px;
+    padding-bottom: 249px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+
+}
+
+.text-aboutme{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+    gap: 32px;
+}
+
+.button-aboutme {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-content: center;
+    height: 64px;
+    text-decoration: none;
+    width: fit-content;
+
+}
+
+.button-aboutme > button {
+
+    /* border-radius: 60px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    width: 242px; */
+
+
+}
+
+.button-aboutme > .button-downloadcv {
+
+    background-color: #333333;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 60px;
+    text-align: center;
+    
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    width: 130px;
+
+
+}
+
+.button-aboutme > .button-contactme {
+
+    background-color: none;
+    color: #202020;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #202020;
+    border-radius: 60px;
+    text-align: center;
+
+    width: 128px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.button-aboutme > .button-downloadcv > h6 {
+
+    color: #F2F2F2;
+    text-align: center;
+
+
+}
+
+.button-aboutme > .button-contactme > h6 {
+
+    color: #202020;
+    text-align: center;
+
+}
+
+.button-aboutme > .button-downloadcv:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.button-aboutme > .button-contactme:hover {
+
+    background-color: #B3B3B3;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.profile {
+
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    border-radius: 600px;
+}
+
+/* SECTION MY PROJECTS */
+
+.myprojects {
+
+    display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 164px;
+    padding-bottom: 339px;
+    justify-content: center;
+
+}
+
+.text-myprojects {
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 850px;
+    text-align: end;
+    gap: 32px;
+    
+}
+
+.text-myprojects > h6 {
+
+    text-align: end;
+
+}
+
+.button-myprojects {
+    
+    width: 285px;
+    height: 64px;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 20px;
+    background-color: #333333;
+    border: 0px;
+    text-decoration: none;
+    box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    align-content: center;
+
+}
+
+.button-myprojects > h6 {
+
+    color: #F2F2F2;
+    text-align: center;
+
+}
+
+.button-myprojects:hover {
+
+    background-color: #666666;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.contactme{
+
+    height: 600px;
+
+}
+
+.text-contactme {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.text-contactme > .text-email {
+
+    color: #1A1A1A;
+
+}
+
+.logo-linkedin {
+
+    color: #202020;
+
+}
+
+.logo-linkedin:hover {
+
+
+    border-radius: 10px;
+    color: #666666;
+    text-decoration: none;
+
+}
+
+}
+
+/* RESPONSIVE MEDIA - RESPONSIVE MEDIA - RESPONSIVE MEDIA - RESPONSIVE MEDIA - RESPONSIVE MEDIA */
+
+@media (max-width: 1258px) {
+    
+        /* SECTION ABOUT ME */
 
 .aboutme {
     position: absolute;
@@ -133,7 +404,7 @@ h6 {
     display: flex;
     flex-direction: column;
     width: 863px;
-    height: 386px;
+    /* height: 386px; */
     align-content: center;
     gap: 32px;
 }
@@ -141,7 +412,7 @@ h6 {
 .button-aboutme{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 24px;
     text-decoration: none;
 
@@ -167,6 +438,7 @@ h6 {
     border: none;
     border-radius: 60px;
     
+    width: 130px;
     padding-left: 56px;
     padding-right: 56px;
     padding-top: 20px;
@@ -184,13 +456,28 @@ h6 {
     font-size: 20px;
     border: 1px solid #202020;
     border-radius: 60px;
-
+    
+    width: 128px;
     padding-left: 56px;
     padding-right: 56px;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
 
+
+}
+
+.button-aboutme > .button-downloadcv > h6 {
+
+    color: white;
+    text-align: center;
+
+}
+
+.button-aboutme > .button-contactme > h6 {
+
+    color: #202020;
+    text-align: center;
 
 }
 
@@ -212,6 +499,12 @@ h6 {
 
     box-shadow: 0px 0px 80px 0.25px rgba(0, 0, 0, 0.25);
     border-radius: 600px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 467px;
+    height: 467px;
 }
 
 /* SECTION MY PROJECTS */
@@ -255,6 +548,14 @@ h6 {
 
 }
 
+.button-myprojects > h6 {
+
+    color: #F2F2F2;
+    height: 24px;
+    width: 173px;
+
+}
+
 .button-myprojects:hover {
 
     background-color: #666666;
@@ -273,7 +574,7 @@ h6 {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    align-items: center;
+    text-align: center;
 
 }
 
@@ -295,6 +596,8 @@ h6 {
     border-radius: 10px;
     color: #666666;
     text-decoration: none;
+
+}
 
 }
 
@@ -432,7 +735,7 @@ h6 {
 .text-aboutme{
     display: flex;
     flex-direction: column;
-    width: 735px;
+    width: 100%;
     height: 386px;
     align-content: center;
     gap: 32px;
@@ -541,7 +844,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 735px;
+    width: fit-content;
     gap: 32px;
     justify-items: center;
     align-items: center;
@@ -585,7 +888,7 @@ h6 {
     flex-direction: column;
     gap: 32px;
     align-items: center;
-    width: 735px;
+    width: fit-content;
     align-items: center;
     align-content: center;
     justify-content: center;
