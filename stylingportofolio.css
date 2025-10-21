@@ -123,11 +123,12 @@ h6 {
 .container-aboutme {
     
     display: flex;
+    flex-direction: row-reverse;
     gap: 32px;
     padding-left: 220px;
     padding-right: 220px;
-    padding-top: 249px;
-    padding-bottom: 249px;
+    padding-top: 248px;
+    padding-bottom: 248px;
     justify-content: center;
     align-items: center;
     height: fit-content;
@@ -137,10 +138,16 @@ h6 {
 .text-aboutme{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    min-width: 981px;
     height: fit-content;
     align-content: center;
     gap: 32px;
+}
+
+.text-aboutme > h6 {
+
+    max-width: 860px;
+
 }
 
 .button-aboutme {
@@ -248,11 +255,25 @@ h6 {
 .myprojects {
 
     display: flex;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-top: 164px;
-    padding-bottom: 339px;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 165px;
+    padding-bottom: 164px;
     justify-content: center;
+
+}
+
+.pictureproject {
+
+    width: 598px;
+    height: 598px;
+
+}
+
+.pictureproject > img  {
+
+    width: 598px;
+    height: 598px;
 
 }
 
@@ -262,7 +283,7 @@ h6 {
     flex-direction: column;
     align-items: end;
     justify-content: center;
-    width: 850px;
+    min-width: 881px;
     text-align: end;
     gap: 32px;
     
@@ -271,6 +292,7 @@ h6 {
 .text-myprojects > h6 {
 
     text-align: end;
+    max-width: 723px;
 
 }
 

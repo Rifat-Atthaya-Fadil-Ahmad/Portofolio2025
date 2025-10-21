@@ -126,6 +126,7 @@ h4 {
 
 }  
 
+    @media (min-width: 1618px) {
 
 .description {
     
@@ -308,6 +309,205 @@ h4 {
     border-radius: 10px;
     color: #666666;
     text-decoration: none;
+
+}
+
+    }
+
+@media (max-width: 1617px) {
+
+.description {
+    
+    padding-left: 216px;
+    padding-right: 216px;
+    padding-top: 300px;
+    padding-bottom: 180px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+
+}
+
+.layout-projectname {
+
+    width: 576px;
+
+}
+
+/* LEFT DESCRIPTION */
+
+.leftdescription {
+
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+
+}
+
+.titleproject {
+
+    color: #666666;
+
+}
+
+.titletools {
+
+    color: #666666;
+
+}
+
+.titleyear {
+
+    color: #666666;
+
+}
+
+.descriptiontools {
+
+    color: #202020;
+    font-weight: 500;
+
+}
+
+.descriptionyear {
+
+    color: #202020;
+    font-weight: 500;
+
+}
+
+/* RIGHT DESCRIPTION */
+
+.rightdescription {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: justify;
+
+}
+
+.titledescription {
+
+    color: #666666;
+
+}
+
+.description1 .description2 {
+
+    color: #202020;
+
+}
+
+/* PROJECT SHOW 1 */
+
+.section-show1 {
+
+    width: 1920px;
+    height: 970px;
+
+}
+
+.show1 {
+    
+    display: flex;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 364px;
+    padding-right: 364px;
+
+    justify-content: center;
+}
+
+/* PROJECT SHOW 2 */
+
+.section-show2 {
+
+    width: 1920px;
+    height: 970px;
+
+}
+
+.show2 {
+
+    display: flex;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 364px;
+    padding-right: 364px;
+
+    justify-content: center;
+}
+
+/* SECTION SHOW 3 */
+
+.section-show3 {
+
+    width: 1920px;
+    height: 970px;
+
+}
+
+.show3 {
+
+    display: flex;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 364px;
+    padding-right: 364px;
+
+    justify-content: center;
+}
+
+
+/* SECTION CONTACT ME */
+
+.contactme{
+
+    display: flex;
+    flex-direction: column;
+    height: 970px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.text-contactme {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.contactme > .text-email {
+
+    color: #1A1A1A;
+
+}
+
+.logo-linkedin {
+
+    color: #202020;
+
+}
+
+.logo-linkedin:hover {
+
+
+    border-radius: 10px;
+    color: #666666;
+    text-decoration: none;
+
+}
 
 }
 
