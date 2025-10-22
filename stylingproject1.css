@@ -129,7 +129,7 @@ h4 {
 
     
 
-    @media (min-width: 1618px) { 
+    @media (min-width: 1259px) { 
 
 .description {
     
@@ -222,6 +222,7 @@ h4 {
 
 .section-show1 {
 
+    
     width: 1920px;
     height: 970px;
 
@@ -305,12 +306,12 @@ h4 {
 
     }
 
-    @media (max-width: 1617px) {
+    @media (max-width: 1258px) {
 
     .description {
     
-    padding-left: 216px;
-    padding-right: 216px;
+    padding-left: 64px;
+    padding-right: 64px;
     padding-top: 300px;
     padding-bottom: 180px;
 
@@ -398,7 +399,7 @@ h4 {
 
 .section-show1 {
 
-    width: 1920px;
+    width: 100%;
     height: 970px;
 
 }
@@ -406,19 +407,27 @@ h4 {
 .show1 {
 
     display: flex;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 364px;
-    padding-right: 364px;
 
     justify-content: center;
+    align-items: center;
+    padding: 64px;
+
+    overflow: hidden;
+
+}
+
+.show1 img {
+
+    max-width: 100%;
+    height: auto;
+
 }
 
 /* PROJECT SHOW 2 */
 
 .section-show2 {
 
-    width: 1920px;
+    width: 100%;
     height: 970px;
 
 }
@@ -426,13 +435,27 @@ h4 {
 .show2 {
 
     display: flex;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 364px;
-    padding-right: 364px;
-    gap: 174px;
+    flex-direction: column;
+
+    align-items: stretch;
+
+    padding: 64px;
+
+    gap: 148px;
+        
+    overflow: hidden;
+
 
     justify-content: center;
+}
+
+.show2 img {
+
+    max-width: 100%;
+    height: auto;
+
+    /* transform: scale(0.9) */
+
 }
 
 

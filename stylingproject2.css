@@ -197,6 +197,8 @@ h4 {
     flex-direction: column;
     gap: 24px;
 
+    text-align: justify;
+
 }
 
 .titledescription {
@@ -417,10 +419,16 @@ h4 {
 
     padding-top: 64px;
     padding-bottom: 64px;
-    padding-left: 364px;
-    padding-right: 364px;
+    padding-left: 64px;
+    padding-right: 64px;
 
     justify-content: center;
+}
+
+.show1 img {
+
+    width: 100%;
+
 }
 
 /* PROJECT SHOW 2 */
@@ -436,12 +444,16 @@ h4 {
 
     display: flex;
 
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 364px;
-    padding-right: 364px;
+    padding: 64px;
 
     justify-content: center;
+}
+
+.show2 img {
+
+    width: 100%;
+
+
 }
 
 /* SECTION SHOW 3 */
@@ -457,14 +469,16 @@ h4 {
 
     display: flex;
 
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 364px;
-    padding-right: 364px;
+    padding: 64px;
 
     justify-content: center;
 }
 
+.show3 img {
+
+    width: 100%;
+
+}
 
 /* SECTION CONTACT ME */
 
