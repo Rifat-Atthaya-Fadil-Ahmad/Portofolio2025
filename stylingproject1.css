@@ -308,7 +308,110 @@ h4 {
 
     @media (max-width: 1258px) {
 
-    .description {
+.container {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.wrappernav{
+    background-color: rgba(242, 242, 242, 0.35);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.25);
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgba(242, 242, 242, 0.35);
+    backdrop-filter: blur(30px);
+    padding-left: 64px;
+    padding-right: 64px;
+    
+}
+
+.navigation > li {
+    
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    font-size: 20px;
+    width: 74px;
+
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navigation > li > a:hover {
+
+    color: #4D4D4D;
+    transition: all .3s ease-in-out;
+
+}
+
+.navigation > li:hover .iconbackbutton {
+
+    color: #4D4D4D;
+    transition: all .3s ease-in-out;
+
+}
+
+.iconbackbutton .backbutton-project {
+
+    fill: currentColor;
+    transition: fill 0.3s ease;
+
+}
+
+.backbutton-project {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+h5 {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #202020;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h6 {
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+h4 {
+
+    font-size: 30px;
+    font-weight: 400;
+    /* text-align: justify; */
+
+}
+
+
+.description {
     
     padding-left: 64px;
     padding-right: 64px;
