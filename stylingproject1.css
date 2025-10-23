@@ -335,8 +335,12 @@ h4 {
     backdrop-filter: blur(30px);
     padding-left: 64px;
     padding-right: 64px;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
     
 }
+
 
 .navigation > li {
     
@@ -380,6 +384,16 @@ h4 {
 
     display: flex;
     gap: 10px;
+    font-size: 45px;
+    align-items: center;
+
+}
+
+
+.iconbackbutton {
+
+    width: 45px;
+    height: 60px;
 
 }
 
