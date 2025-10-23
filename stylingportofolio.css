@@ -368,7 +368,78 @@ h6 {
 
 @media (max-width: 1258px) {
     
-        /* SECTION ABOUT ME */
+     /* SECTION ABOUT ME */
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 145px;
+    
+}
+
+.wrappernav{
+    background-color: rgba(242, 242, 242, 0.35);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.25);
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    background-color: rgba(242, 242, 242, 0.35);
+    backdrop-filter: blur(30px);
+    
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+
+.navigation > li {
+    
+    display: flex;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    font-size: 45px;
+    justify-content: none;
+    align-content: none;
+    align-items: center;
+
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation > li > a.button-project {
+
+    color: #999999;
+
+}
+
+.navigation > li > a.navbutton-contactme {
+
+        color: #999999;
+
+}
+
+.navigation > li >a:hover {
+
+    color: #4D4D4D;
+    transition: all .3s ease-in-out;
+
+}
 
 .aboutme {
     position: absolute;
@@ -418,7 +489,7 @@ h6 {
     gap: 24px;
     padding-left: 64px;
     padding-right: 64px;
-    padding-top: 164px;
+    padding-top: 350px;
     padding-bottom: 339px;
     justify-content: center;
     align-items: center;
